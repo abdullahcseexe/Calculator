@@ -1,0 +1,41 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#container{
+  border: 3px solid black;
+  width: 400px;
+  /* height: 600px; */
+  margin: 10px;
+  border-radius: 6px;
+  background-color: burlywood;
+}
+#display{
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 11px;
+  border-radius: 6px;
+  height: 50px;
+}
+
+.button{
+  height: 70px;
+  width: 70px;
+  margin: 8px;
+  border-radius: 30px;
+  background-color: bisque;
+}
+
+.buttonContainer{
+  margin-top: 10px;
+  display: flex;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
