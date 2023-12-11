@@ -15,11 +15,11 @@ body{
   background-color: burlywood;
 }
 #display{
-  font-size: 30px;
-  margin-top: 10px;
-  margin-left: 11px;
+  
+  margin: 10px;
+  width: 92%;
+  font-size: 35px;
   border-radius: 6px;
-  height: 50px;
 }
 
 .button{
