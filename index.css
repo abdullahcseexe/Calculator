@@ -1,4 +1,4 @@
-body{
+body {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -6,7 +6,7 @@ body{
   margin: 0;
 }
 
-#container{
+#container {
   border: 3px solid black;
   width: 400px;
   /* height: 600px; */
@@ -14,7 +14,7 @@ body{
   border-radius: 6px;
   background-color: burlywood;
 }
-#display{
+#display {
   /* font-size: 30px;
   margin-top: 10px;
   margin-left: 11px;
@@ -26,7 +26,7 @@ body{
   border-radius: 6px;
 }
 
-.button{
+.button {
   font-size: 30px;
   height: 70px;
   width: 70px;
@@ -35,7 +35,7 @@ body{
   background-color: bisque;
 }
 
-.buttonContainer{
+.buttonContainer {
   margin-top: 10px;
   display: flex;
   margin: 5px;
@@ -43,4 +43,3 @@ body{
   align-items: center;
   flex-wrap: wrap;
 }
-
