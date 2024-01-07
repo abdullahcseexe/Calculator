@@ -13,11 +13,14 @@
       <div class="buttonContainer">
         <button
           class="button"
-          onclick="currentDisplay=''
-      document.querySelector('#display').value = currentDisplay;"
+          onclick="
+      currentDisplay = currentDisplay + '*';
+      document.querySelector('#display').value = currentDisplay;
+      "
         >
-          C
+          *
         </button>
+
         <button
           class="button"
           onclick="currentDisplay=currentDisplay + '1'
@@ -126,12 +129,10 @@
         </button>
         <button
           class="button"
-          onclick="
-      currentDisplay = currentDisplay + '*';
-      document.querySelector('#display').value = currentDisplay;
-      "
+          onclick="currentDisplay=''
+      document.querySelector('#display').value = currentDisplay;"
         >
-          *
+          C
         </button>
       </div>
     </div>
