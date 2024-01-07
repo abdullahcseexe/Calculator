@@ -27,12 +27,14 @@ body {
 }
 
 .button {
-  font-size: 30px;
+  
   height: 70px;
   width: 70px;
   margin: 8px;
   border-radius: 30px;
   background-color: bisque;
+  font-size: 30px;
+  
 }
 
 .buttonContainer {
