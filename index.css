@@ -14,7 +14,7 @@ body {
   margin: 10px;
   border-radius: 6px;
   background-color: burlywood;
-  background-color: rgba(47, 255, 0, 0.24); /* Red color with 50% opacity */
+  background-color: rgba(47, 255, 0, 0.24); 
   border: 1px solid #ccc;
 }
 #display {
